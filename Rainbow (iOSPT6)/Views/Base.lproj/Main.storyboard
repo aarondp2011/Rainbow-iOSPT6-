@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Colors Table View Controller-->
+        <!--Rainbow-->
         <scene sceneID="z6S-zC-sLf">
             <objects>
                 <tableViewController id="ydR-VL-qc3" customClass="ColorsTableViewController" customModule="Rainbow__iOSPT6_" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,7 +42,7 @@
                             <outlet property="delegate" destination="ydR-VL-qc3" id="Zug-SS-9bA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="qLs-Pw-PpW"/>
+                    <navigationItem key="navigationItem" title="Rainbow" id="qLs-Pw-PpW"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07A-ar-gNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,8 +69,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qaa-xN-umY" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZM8-u6-rv7">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ZM8-u6-rv7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
