@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Colors Table View Controller-->
         <scene sceneID="z6S-zC-sLf">
             <objects>
-                <tableViewController id="ydR-VL-qc3" sceneMemberID="viewController">
+                <tableViewController id="ydR-VL-qc3" customClass="ColorsTableViewController" customModule="Rainbow__iOSPT6_" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="g4J-x7-gs5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="7Jt-aJ-xzr" kind="show" id="Hw7-U3-FKy"/>
+                                    <segue destination="7Jt-aJ-xzr" kind="show" identifier="ToDetailSegue" id="Hw7-U3-FKy"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="889.85507246376824" y="176.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="qg2-2x-q7s">
             <objects>
-                <viewController id="7Jt-aJ-xzr" sceneMemberID="viewController">
+                <viewController id="7Jt-aJ-xzr" customClass="ColorDetailViewController" customModule="Rainbow__iOSPT6_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pln-At-KtM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
